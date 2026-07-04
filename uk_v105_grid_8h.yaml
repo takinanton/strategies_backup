@@ -1,0 +1,11 @@
+strategy: uk_v105_per_tf_mgmt
+tf: 8h
+config_yaml: null
+grid:
+  f1_min_dist_ema20_atr: [2.5]
+  f2_min_rsi14: [65]
+  f3_max_dollar_vol_usd: [0]
+  mgmt_us_8h_max_run_r: [5.0, 8.0, 12.0]
+  mgmt_us_8h_trail_buf: [0.003, 0.006]
+  mgmt_us_8h_trail_pivot: [5, 8]
+  mgmt_us_8h_vstop_win: [3, 5]
